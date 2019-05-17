@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relRootProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imgMovie"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/text_view_priority"
+            android:layout_below="@+id/text_view_description"
+            android:layout_toRightOf="@+id/imgMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="14dp"
+            style="@style/style_bold"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_start_rate"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/text_view_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgMovie"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Title"
+            android:textSize="16dp"
+            style="@style/style_bold" />
+
+        <TextView
+            android:id="@+id/text_view_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_title"
+            android:layout_toRightOf="@+id/imgMovie"
+            android:textSize="14dp"
+            style="@style/style_regular"
+            android:text="Description" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

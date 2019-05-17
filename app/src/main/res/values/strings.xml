@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prueba Peiky</string>
+    <string name="trillers">Trillers</string>
+    <string name="overview">Overview</string>
+    <string name="title_bar">My Movie</string>
+    <string name="subtitle_bar">Selecciona una categoria</string>
+    <string name="minutes">Minutes</string>
+</resources>
